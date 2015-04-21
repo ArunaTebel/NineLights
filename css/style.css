@@ -76,3 +76,47 @@ footer.page-footer {
     color: white;
     font-size: 1.8em;
 }
+
+#screens-slider{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.screens-slider-caption{
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #fff , 0 0 70px #fff , 0 0 80px #fff , 0 0 100px #fff ;
+}
+
+.screens-slider-caption h3, .screens-slider-caption h5{
+    color: #222;
+}
+
+@media only screen and (max-width : 850px) {
+    nav .brand-logo{
+        left: 100px;
+    }
+    #custom-teal-text-header{
+        font-size: 3.1em;
+        line-height: 1;
+    }
+    #custom-s12{
+        font-size: 1.2em;
+        line-height: 1.1;
+    }
+}
+
+@media only screen and (max-width : 530px) {
+    nav .brand-logo img{
+        display: none;
+    }
+    #navbar-right-section a{
+        width: 50%;
+    }
+    #custom-teal-text-header{
+        font-size: 2.9em;
+        line-height: 1;
+    }
+    #custom-s12{
+        font-size: 1em;
+        line-height: 1.1;
+    }
+}
