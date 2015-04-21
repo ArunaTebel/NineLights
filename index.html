@@ -13,17 +13,77 @@
         <nav class="white" role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#" class="brand-logo"><img src="images/logo.png"></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Menu</a></li>
-                </ul>
-
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#">Menu</a></li>
-                </ul>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <!-- Modal Trigger -->
+                <a class="right waves-effect waves-light btn modal-trigger" href="#signup_modal">Sign Up</a>
+                <a class="right waves-effect waves-light btn modal-trigger" href="#login_modal">Login</a>
             </div>
         </nav>
-
+        <div id="signup_modal" class="modal">
+            <div id="signup_modal_content" class="modal-content">
+                <div class="teal lighten-2" id="signup-modal-header">
+                    Join with NineLights&#8482
+                </div>
+                <div class="row">
+                    <form class="col s12" autocomplete="off">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="signup-first-name" type="text" class="validate" autocomplete="off">
+                                <label for="signup-first-name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="signup-last-name" type="text" class="validate" autocomplete="off">
+                                <label for="signup-last-name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="signup-password" type="password" class="validate" autocomplete="off">
+                                <label for="signup-password">Password</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="signup-password-confirm" type="password" class="validate" autocomplete="off">
+                                <label for="signup-password-confirm">Confirm Password</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="signup-email" type="email" class="validate" autocomplete="off">
+                                <label for="signup-email">Email</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Sign Up!</a>
+            </div>
+        </div>
+        <div id="login_modal" class="modal">
+            <div id="login_modal_content" class="modal-content">
+                <div class="teal lighten-2" id="login-modal-header">
+                    Login to NineLights&#8482
+                </div>
+                <div class="row">
+                    <form class="col s12" autocomplete="off">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="login-email" type="email" class="validate" autocomplete="off">
+                                <label for="login-email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="login-password" type="password" class="validate" autocomplete="off">
+                                <label for="login-password">Password</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Sign Up!</a>
+            </div>
+        </div>
         <div id="index-banner" class="parallax-container">
             <div class="section no-pad-bot">
                 <div class="container">

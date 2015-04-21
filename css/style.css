@@ -65,3 +65,14 @@ footer.page-footer {
 #social-media-icon-list li{
     display: inline;
 }
+
+#signup_modal_content, #login_modal_content{
+    padding: 0;
+    padding-bottom: 24px;
+}
+
+#signup-modal-header, #login-modal-header{
+    padding: 10px;
+    color: white;
+    font-size: 1.8em;
+}
